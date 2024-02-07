@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .login{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    border: 1px solid gainsboro;
+}
+.int {
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 250px; 
+    height: 35px; 
+    border: 1px solid gainsboro;    
+    padding-left: 10px;
+}
+.input {
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 250px; 
+    height: 35px; 
+    border: 1px solid gainsboro;    
+    padding-left: 10px;
+    margin-top: -15px;    
+}
+
+.int::placeholder{
+    text-align: left;
+    padding-left: 0px;
+    font-size:13px;
+    color: grey;
+}
+.input::placeholder{
+    padding-left: 10px;
+    font-size: 13px;
+    color: grey;
+    padding-left: 0px;
+}
+.int:focus {
+    border-color: #ff0000; /* Изменение цвета края при фокусе */
+}
+.int:active {
+    vertical-align: middle;
+    font-size: 16px;
+    border-color: green;
+}
+.touch{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 50px;
+    color: #01a715;
+}
+.enter{
+    cursor: pointer;
+    height: 35px;
+    width: 268px;
+    border: 1px solid gainsboro;   
+    border-radius: 6px;
+    margin-left: 28px;
+    background-color: rgb(0, 157, 255);
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-style:unset;
+}
+.help{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+}
+.forgot{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(28, 1, 94);
+    font-size: 14px;
+    font-weight: 6px;
+    text-decoration: none;
+}
+.forgot:hover{
+    text-decoration: none;
+}
+.photo{
+    width: 1000x;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.inst{
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.ili{
+    margin-left: 45px;
+}
+.or{
+    font-style: normal;
+    color: gray;
+    font-size: 13px;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-top: -100px;
+}
+.hr1{
+    height: 0px;
+    opacity: 0.5;
+    border-color: rgb(222, 216, 216);
+    color: gray;
+    width: 100px;
+    display: inline-block;
+}
+.hr2{
+    opacity: 0.5;
+    border-color: rgb(222, 216, 216);
+    width: 100px;
+    display: inline-block;
+}
+.but:hover{
+    text-decoration: none;
+    border: none;
+    background-size: cover; 
+}
+.but{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+.asd{
+    text-decoration: none;
+}
+.asd:hover{
+    text-decoration: none;
+}
+.dfg:hover{
+    text-decoration: none;
+}
+.dfg{
+    color: rgb(22, 1, 99);
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.faceb{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.new{
+    
+    width: 340px;
+    margin-top: 40px;
+    height: 65px;
+    background-color: white;
+    position:relative;
+    
+    border: 1px solid gainsboro;
+}
+.reg{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.regg{
+    text-decoration: none;
+    font-weight: 50px;
+    color: rgb(24, 124, 237);
+}
+.regg:hover{
+    text-decoration: none;
+}
+.reg:hover{
+    text-decoration: none;
+}
+.ust{
+    text-align: center;
+    font-weight: 1;
+}
+.pht{
+    margin-top: -10px;
+    margin-left: 25px;
+}
+.tr{
+    margin-top: 0px;
+}
+.pht2{
+    margin-top: -53px;
+    margin-left: 175px;    
+}
+.curs{
+    cursor: pointer;
+}
+#toggleCheckbox {
+    display: none;
+  }
+  
+  #list {
+    display: none;
+  }
+  
+  #toggleCheckbox:checked ~ #list {
+    display: block;
+  }
+  
+.pos{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+}  
+</style>
+<body>
+    <div class="full">
+        <div class="photo"><img src="Screen-Shot-2018-10-05-at-2.09.37-pm-600x900.png" alt=""></div>
+        
+    <div class="login">
+        
+        <img src="Instagram_logo.svg.png" alt="" width="190px" height="65px" class="inst">
+        <div class="email">
+   <input type="text" class="int" placeholder="Номер телефона,имя пользователя или..." ></div><br>
+<div class="pass"><input type="text" class="input" placeholder="Пароль"></div>
+            <div class="touch"><button class="enter">Войти</button>
+            </div>
+            <div class="ili"><hr class="hr1"><span class="or">ИЛИ</span><hr class="hr2"></div>
+            <div class="faceb"><a href="" class="asd"><img src="apps.37935.9007199266245907.b029bd80-381a-4869-854f-bac6f359c5c9.91f8693c-c75b-4050-a796-63e1314d18c9.png" alt="" width="18px"><span class="dfg">Войти через Facebook</span></a></div>
+            <div class="help"><a href="" class="par"><p class="forgot">Забыли пароль?</p></a></div>
+
+            <div class="new"><p class="reg">У вас еще нет аккаунта? <a href="" class="regg">Зарегистрироваться</a></p></div>
+            <div class="txt"><p class="ust">Установите приложение</p></div>
+            <div class="pht"><a class="curs"><img src="Google_Play_Store_badge_EN.svg.png" alt="" width="150px" height="60px"></a></div><div class="pht2"><a href="" class="curs2"><img src="Download_on_the_App_Store_Badge.svg.png" alt="" width="120px" height="40px" class="tr"></a></div>
+        </div>
+    </div>
+    
+</body>
+</html>
